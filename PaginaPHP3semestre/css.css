@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: rgb(81,186,255);
+    background: linear-gradient(90deg, rgba(81,186,255,1) 28%, rgba(63,63,224,1) 50%, rgba(81,186,255,1) 76%);
+
+}
+
+
+
+/* CONFIGURAÇÃO DA PAGINA*/
+.GridContainer{
+
+    width: 800px;
+    display: grid;
+    grid-template:
+    'header header header header header header'
+    'filter filter filter filter filter filter'
+    'display display display display display display'
+    'produtos produtos produtos produtos produtos produtos'
+    'footer footer footer footer footer footer'
+    'footer2 footer2 footer2 footer2 footer2 footer2'        ;
+    justify-content: center;
+    border: solid rgb(97, 171, 180) 6PX;     
+}
+.item1 { grid-area: header; }/*CABEÇALHO*/
+.item2 { grid-area: filter; }/*CATEGORIAS*/
+.item3 { grid-area: display; }/*DYSPLAY ANIMADO(MAIS OU MENOS)*/
+.item4 { grid-area: produtos; }/*CONTEUDO DA PAGINA NO GERAL*/
+.item5 { grid-area: footer; }/*RODAPÉ 1*/
+.item6 { grid-area: footer2; }/*RODAPÉ 2*/
+
+
+
+
+/*CABEÇALHO*/
+.item1{
+    display: flex;
+    width: 800px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+/*CATEGORIAS*/
+.item2{
+    width: 800px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    
+    
+
+
+}
+#categoria{
+    width: 780px;
+    margin-left: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    border-radius: 12px;
+    border: solid 2px;
+    border-color: blue;
+}
+
+
+
+
+/*DYSPLAY ANIMADO*/
+.item3{
+   width: 800px;
+   height: 300px;
+   background: url(/IMG/prod1.jpg);
+   animation: slide 20s infinite;
+
+}
+@keyframes slide{
+    25%{
+        background: url(IMG/prod1.jpg);
+    }
+}
+@keyframes slide{
+    50%{
+        background: url(IMG/prod2.jpg);
+    }
+}
+@keyframes slide{
+    75%{
+        background: url(IMG/prod3NEW.png);
+    }
+}
+@keyframes slide{
+    100%{
+        background: url(IMG/prod4.jpg);
+    }
+}
+
+
+
+/*botoes da tag <a></a> */
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(252, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(213, 1, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+ /*Botões do cabeçalho*/
+
+
+ .headerbtt{
+    background-color: #f4511e;
+    border: none;
+    color: purple;
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+ }
+ .headerbtt:hover {opacity: 1}
+ #srcbar{
+     padding: 5.5px;
+     border-radius: 12px;
+ }
+
+
+
+
+ 
+ 
+  /*conteudo da pagina varia*/
+.item4{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+
+    /*DYSPLAY DE PRODUTOS NA PAGINA INDEX*/    
+}
+#prodDY{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    border: groove 1.2px ;
+    border-color: gray;
+    background-color: violet;
+    border-radius:8px ;
+}
+#prodDY:hover{
+    transform: scale(1.5);
+}
+
+#cartBTN{
+    background-color: orangered;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+#cartBTN:hover{
+    opacity: 0.8;
+    cursor:auto;
+
+}
+
+
+/*ITENS DE FROMULARIO*/ 
+/*data https://jsfiddle.net/plan/V2Q58 */
+  
+/* Removes the clear button from date inputs */
+input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+
+/* Removes the spin button */
+input[type="date"]::-webkit-inner-spin-button { 
+    display: none;
+}
+
+/* Always display the drop down caret */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #2c3e50;
+}
+
+/* A few custom styles for date inputs */
+input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+    color: #95a5a6;
+    font-family: "Helvetica", arial, sans-serif;
+    font-size: 18px;
+    border:1px solid #ecf0f1;
+    background:#ecf0f1;
+    padding:5px;
+    display: inline-block !important;
+    visibility: visible !important;
+}
+
+input[type="date"], focus {
+    color: #95a5a6;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+/*formulario iserir itens na loja*/
+.form1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1.2px goldenrod;
+    background-color: lightgray;
+    width: 50%;
+    height: 700px;
+}
+.inputform{
+    margin-top: 2%;
+    width:200px;
+    height: 30px;
+}
+
+/*https://www.w3schools.com/css/css_form.asp*/
+
+#textarea {
+    width: 75%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+  .item5{
+      display: flex;
+      border: solid 2px;
+      background-color: lightgreen;
+
+  }
+  #tbi5{
+    border: solid 1.5px #f4511e;
+    padding: 5px;
+    width: 600px;
+  }
+  /*.item6{
+
+  }
+
+/*item 4 da pagina de Login */
+
+#paidLog{
+    display: flex;
+    margin-top: 40px;
+
+    height: 500px;
+}
+
+#it4_2{
+    background-color: aqua;
+    max-width: 300px;
+    margin-left: 100px;
+    padding: 20px;
+    height: 300px;
+    border: #2c3e50 solid 2px;
+    border-radius: 20px;
+}
+#it4_1{
+    max-width: 300px;
+    height: 300px;
+    padding: 20px;
+    background-color: blueviolet;
+    border: #2c3e50 solid 2px;
+    border-radius: 20px;
+
+}
+
+
+.input2{
+    max-width: 150px;
+}
+
+.input3{
+    max-width: 150px;
+}
+/*tabela pagina crud*/
+
+.customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+.customers td, .customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+.customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+.customers tr:hover {background-color: #ddd;}
+  
+.customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+.word{
+    width: 200px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
