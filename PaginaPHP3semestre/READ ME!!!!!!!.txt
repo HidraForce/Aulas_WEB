@@ -1,0 +1,47 @@
+https://www.cloudways.com/blog/add-facebook-login-in-php/
+
+https://developers.google.com/identity/sign-in/web/build-button
+
+
+
+
+
+--> Arrumar Login//////feito
+-->Arrumar Cadastro de produto///X(toques finais)/n deu
+-->arrumar Display de produto//funfo
+--> barra de pesquisa/feita
+--> Pagina dos produtos
+-->pagina CRUD//Feito
+-- pagina Sobre//Finge q não existe
+--> carrinho//feito+/-
+--> Organizar codigo/verificações/nao fiz
+
+
+
+
+
+
+O SELECT MAIS FU***o QUE EU JA FIZ 
+
+select *
+from(
+    select im.*, row_number() over(partition by im.idProduto order by im.idImagem) rn, p.nomeProduto, p.precoProduto, p.idProduto as P_produto
+    from imagens  as im join produto as p where p.idProduto = im.idProduto
+)im  
+where rn = 1;
+
+
+
+url : livrariaprojetowebii.42web.io
+
+
+
+
+
+
+
+
+
+
+
+
