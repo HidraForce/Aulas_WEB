@@ -1,0 +1,196 @@
+html{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    max-width: 100%;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    max-width: 1580px;
+    position: relative;
+    background-color: lightyellow;
+
+    
+    
+    
+    
+}
+#logo{
+    width: 240px;
+    height: 80px;
+    margin: 4.5px;
+}
+#heder{
+    display: flex;
+    background-color: rgb(26, 175, 12);
+    justify-content: space-between;
+    align-items: center;
+    width:1580px;
+       
+          
+}
+#myaccmykrt{
+    display: flex;
+}
+#srcbar{
+   width: 800px;
+   height: 30px;
+}
+#bt{
+    width: 100px;
+    height: 30px;
+}
+
+#cAcc{
+    
+    margin-left: 18px;
+    margin-right: 25px;
+    border-radius: 18px;
+    border-radius: 15px;
+    border: black solid;
+    width: 105px;
+    
+}
+#krt{
+  border-radius: 15px;
+  border: black solid;
+  width: 90px;
+}
+#product{
+    display: flex;
+    align-items: center;
+    margin-top: 7.3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+#descri{
+   margin-left: 100px;
+}
+#prodiimg1{
+    width: 549px;
+    height: 300px;
+    border: lightgrey solid 12px;
+
+}
+.miniaturas{
+    width: 120px;
+    height: 100px;
+    margin-top: 2%;
+    margin-right: 20px;
+    border: lightgray solid 6px;
+    
+    
+}
+#butão{
+    width: 140px;
+    height: 70px;    
+    font-size: 25px;   
+    margin-left: 25px;
+    background-color: lightgray;      
+}
+#preço{
+    margin-left: 145px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 78px;
+    
+}
+#divisão{
+   font-size: 16px;
+}
+#descri{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#tittle{
+    margin-left: 28%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.rodape1{
+    background-color: green;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    border:rgb(26, 175, 12) solid;
+    border-radius: 18px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    row-gap: 50px;
+    column-gap: 25px;
+    padding: 15px;
+    margin-top: 100px;
+
+}
+#fp{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-bottom: 1%;
+}
+.pagflag{
+    width: 60px;
+    height: 30px;
+    margin-right: 1%;
+}
+#cardflagzz{
+    
+    margin-left: 5%;
+    margin-top: 0%;
+
+}
+.srcft{
+    width: 95px;
+    height: 90px;
+    margin-top: 48px;
+    margin-left: 72px;
+}
+#rodape2{
+    display: flex;
+    background-color: green;
+    border: solid rgb(26, 175, 12);
+    border-radius: 18px;
+    margin-top: 2%;
+}
+#certficate{
+    display: flex;
+    justify-content: baseline;
+    
+    margin-left: 360px;
+    
+}
+.icon{
+    border: lightgreen solid;
+    background-color: rgb(26, 175, 12);
+    border-radius: 50%;
+    height: 78px;
+    width: 85px;
+   
+    
+
+}
+#rodape3{
+    background-color: green;
+    border: solid rgb(26, 175, 12);
+    border-radius: 18px;
+    margin-top: 2%;
+    display: flex;
+}
+#socialmediaicon{
+    margin-left: 54%;
+    margin-top: 2%;
+    margin-bottom: 25px;
+    
+}
+#lastimg{
+    width: 200px;
+    height: 60px;
+    margin: 2%;
+    
+    
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <link rel="stylesheet" href="/ProjetoLojinha/Pagprontas/paglogcss.css">
+    <title>paglog</title>
+</head>
+<body>
+    <h1 id="op">Login do cliente</h1>
+    <div id="pag">
+        <div id="allrdylog">
+           <h4 id="sqtitle"> Ja é cadastrado?<br><p id="urtt">Entre com seus dados de login e senha</p></h4>
+           
+           <form method="" action="" id="formlardylog">
+               <p id="smail">Seu e-mail:</p>
+               <input type="email" placeholder="Ex: seuemail@gmail.com" id="emailbox">
+               <p id="uurpassword">Sua senha:</p>
+               <input type="password" id="password">
+               <a href="#" id="frgtpss">Esqueceu a senha?</a>
+               <button type="submit" id="bttenter">ENTRAR</button>
+               <p>Entrar com conta do Facebook ou Google</p>
+               <span id="bttfcegg">
+                   <button type="button" id="gg" href="#"><ion-icon name="logo-google" size="large"></ion-icon><ion-icon name="add-sharp" size="large"></ion-icon></button>
+                    <button type="button" id="fc" href="#"><ion-icon name="logo-facebook" size="large"></ion-icon></button>
+               </span>
+
+
+           </form>
+        </div>
+        <div id="notlogged">
+            <h4 id="sqtitle2">Ainda não é cadastrado no site?</h4>
+            <p id="beginacc">faça agora mesmo seu cadastro</p>
+            <form method="" action="">
+                <p id="emaillog">Seu e-mail</p>
+                <input type="email" placeholder="Ex: seuemail@gmail.com" id="loginemail">
+                <p id="senhalog">Sua senha:</p>
+                <input type="password" id="loginpss">
+                <span id="cpf">
+                    <p>CPF:</p>
+                    <input id="cpffield" type="tel" required="" mask="999.999.999-99" maxlength="14" autocorrect="off" name="cpf" placeholder="___.___.___-__" >
+                </span>
+                <span id="nominho">
+                    <p>Seu nome:</p>
+                    <input  id="namefield" type="text" placeholder="*Nome completo">
+                </span>
+                <span id="birthdate">
+                    <p>Insira sua data de nascimento:</p>
+                    <input type="date" id="birthfield">
+                </span>
+                <span id="gender">
+                    <p>Seu genero:</p>
+                    <form>
+                        <input type="radio" id="male" name="gender1" value="male">
+                        <label for="male">Masculino</label>
+                        <input type="radio" id="female" name="gender2" value="Female">
+                        <label for="female">Feminino</label>
+                        <input type="radio" id="other" name="gender3" value="Other">
+                        <label for="other">Outro</label>
+                      </form>
+                </span>
+                <span id="phone">
+                    <p>Insira seu numero de contato(Celular/telefone fixo):</p>
+                    <input type="tel" mask="(99)99999-9999" id="zap" maxlength="14" minlength="13" name="contato" placeholder="(__)_____-____">
+
+                </span>
+                    
+                <button id="bttfim" type="submit">CADASTRAR!!!</button>
+            </form>      
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>    
+</body>
+</html>
+
+

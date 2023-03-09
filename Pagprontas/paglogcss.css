@@ -1,0 +1,157 @@
+body{
+    background-image: url("../613932.png");
+    background-repeat: no-repeat;
+    
+    
+}
+button {
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #b2b4b2;
+    color:red;
+    cursor: pointer;
+}
+
+#pag{
+    display: flex;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#allrdylog{
+    
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: left;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(228, 226, 226);
+    height: 450px;
+    margin-left: 100px;
+    border-radius: 12px;
+}
+#notlogged{
+    
+    margin-left: 200px;
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(228, 226, 226);
+}
+#gg{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    padding: 5px;
+    border-color: gray;
+    background-color: lightgrey;
+}
+#fc{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-color:grey;
+    background-color:lightgray;
+    border-style:solid;
+    display: flex;
+    align-items: center;
+    margin-left: 7px;
+    padding-left: 7.492px;
+
+}
+#bttfcegg{
+    display: flex;
+}
+#bttfim{
+    width: 110px;
+    height: 30px;           
+    padding-left: 2px;
+    padding-top: 4px;
+    margin-top: 10px;
+    
+}
+#op{
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-left: 100px;
+    padding-top: 6px;
+}
+#frgtpss{
+    margin-top: 7px;
+    margin-bottom: 10px;
+    font-size: 11.5px;
+    
+}
+#frgt{
+    background-color: black;
+}
+#formlardylog{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15.8px;
+}
+#bttenter{
+    width: 90px;
+    height: 30px;
+    border-radius: 0%;
+    border-style:outset;
+    border-color: black;
+    background-color: lightgray;
+    padding-top: 5px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#emailbox{
+    width: 250px;
+    height: 22px;
+}
+#password{
+    width: 155px;
+    height: 20px;
+}
+#sqtitle{
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#urtt{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+#loginemail{
+    width: 250px;
+    height: 20px;
+}
+#loginpss{
+    width: 150px;
+    height: 20px;
+}
+#cpffield{
+    width: 100px;
+    height: 20px;
+}
+#namefield{
+    width: 250px;
+    height: 20px;
+}
+#birthfield{
+    width: 128px;
+    height: 25px;
+}
+#zap{
+    width: 128px;
+    height: 25px;
+}

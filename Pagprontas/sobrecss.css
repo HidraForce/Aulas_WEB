@@ -1,0 +1,229 @@
+html{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    max-width: 100%;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    max-width: 100%;
+    position: relative;
+    background-color: lightyellow;
+
+    
+    
+    
+    
+}
+#logo{
+    width: 240px;
+    height: 80px;
+    margin: 4.5px;
+}
+#heder{
+    display: flex;
+    background-color: rgb(26, 175, 12);
+    justify-content: space-between;
+    align-items: center;
+    width:1580px;
+       
+          
+} 
+#myaccmykrt{
+    display: flex;
+}
+#srcbar{
+   width: 800px;
+   height: 30px;
+}
+#bt{
+    width: 100px;
+    height: 30px;
+}
+#cAcc{
+    
+    margin-left: 18px;
+    margin-right: 25px;
+    border-radius: 18px;
+    border-radius: 15px;
+    border: black solid;
+    width: 105px;
+    
+}
+#krt{
+  border-radius: 15px;
+  border: black solid;
+  width: 90px;
+}
+#container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    margin: 1.2%;
+    justify-content: center;
+    position:absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1580;
+    height: fit-content;
+    column-gap: 15px;
+    background-color: lightgoldenrodyellow;
+    border: dashed 6px green;
+    border-radius: 16px;
+    padding: 0.9%;
+
+}
+#C1{
+    grid-column: 1/4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 2.3px dashed orange;
+    
+
+
+
+}
+#C2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0.6%;
+    border-bottom: 2.3px dashed orange;
+    border-right: 2.3px dashed orange;
+}
+#C3{   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0.6%;
+    border-bottom: 2.3px dashed orange;
+    border-right: 2.3px dashed orange;
+}
+#C4{  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0.6%;
+    border-bottom: 2.3px dashed orange;
+    
+}
+#C5{ 
+    display: flex;
+    grid-column: 1/4;
+}
+#imageblank{
+    width: 120px;
+    height: 100px;
+}
+.description{
+    font-size: 14px;
+}
+#descrix{
+    margin-top: 100px; 
+}
+#descriptionx{
+    font-size: 18px;
+}
+#incell{
+    margin-left: 5%;
+}
+
+
+.rodape1{
+    background-color: green;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+    border:rgb(26, 175, 12) solid;
+    border-radius: 18px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 800px;
+    row-gap: 15px;
+    column-gap: 15px;
+    padding: 2%;
+    
+
+}
+#fp{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-bottom: 1%;
+}
+.pagflag{
+    width: 60px;
+    height: 30px;
+    margin-right: 1%;
+}
+#cardflagzz{
+    
+    margin-left: 5%;
+    margin-top: 0%;
+
+}
+.srcft{
+    width: 95px;
+    height: 90px;
+    margin-top: 48px;
+    margin-left: 72px;
+}
+#rodape2{
+    display: flex;
+    background-color: green;
+    border: solid rgb(26, 175, 12);
+    border-radius: 18px;
+    margin-top: 2%;
+}
+#certficate{
+    display: flex;
+    justify-content: baseline;
+    
+    margin-left: 360px;
+    
+}
+.icon{
+    border: lightgreen solid;
+    background-color: rgb(26, 175, 12);
+    border-radius: 50%;
+    height: 78px;
+    width: 85px;
+   
+    
+
+}
+#rodape3{
+    background-color: green;
+    border: solid rgb(26, 175, 12);
+    border-radius: 18px;
+    margin-top: 2%;
+    display: flex;
+}
+#socialmediaicon{
+    margin-left: 54%;
+    margin-top: 2%;
+    margin-bottom: 25px;
+    
+}
+#lastimg{
+    width: 200px;
+    height: 60px;
+    margin: 2%;
+    
+    
+}
+button {
+   transition-duration: 0.4s;
+}
+button:hover {
+   background-color: #b2b4b2;
+   color:red;
+}

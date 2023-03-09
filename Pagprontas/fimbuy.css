@@ -1,0 +1,268 @@
+html{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    max-width: 100%;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    max-width: 100%;
+    position: relative;
+    background-color: lightyellow;
+
+    
+    
+    
+    
+}
+#logo{
+    width: 240px;
+    height: 80px;
+    margin: 4.5px;
+}
+#heder{
+    display: flex;
+    background-color: rgb(26, 175, 12);
+    justify-content: space-between;
+    align-items: center;
+    width:1580px;
+       
+          
+} 
+#myaccmykrt{
+    display: flex;
+}
+#srcbar{
+   width: 800px;
+   height: 30px;
+}
+#bt{
+    width: 100px;
+    height: 30px;
+}
+#cAcc{
+    
+    margin-left: 18px;
+    margin-right: 25px;
+    border-radius: 18px;
+    border-radius: 15px;
+    border: black solid;
+    width: 105px;
+    
+}
+#krt{
+  border-radius: 15px;
+  border: black solid;
+  width: 90px;
+  
+  
+}
+#endboard{
+    margin-left: 5%;
+}
+
+#endbuy{
+    display: flex;
+}
+#truegrade{
+    display: grid;
+    border-bottom-style: dotted;
+    grid-template-columns: auto auto;
+    row-gap: 12px;
+}
+#gridend{
+    border: 8px solid orange;
+    background-color: lightgrey;
+    border-radius: 17.5px;
+    margin-top: 17px;
+    padding: 2%;
+}
+.cell{
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+}
+.cell1{
+    border-bottom: dashed black 2px;
+}
+.cell2{
+    border-bottom: solid lightgray 3px;
+}
+.ttileline{
+    border-bottom: solid lightgray 3px;
+
+}
+#endbuy{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cupom{
+    margin-top: 3%;
+}
+.descrsoes{
+    justify-content: center;
+    margin-left: 4px;
+}
+#srcbarbuy{
+    width: 192.7px;
+    height: 37px;
+}
+#bttbuy{
+    width: 56.7px;
+    height: 37px;
+}
+#gridloadout{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.cellval{
+    padding-top: 2%;
+    display: flex;
+    justify-content: right;
+
+}
+#cellvalx{
+    border-top: 2px solid black;
+    padding-top: 10%;
+    display: flex;
+    justify-content:right;
+
+
+}
+#cellx{
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+
+
+}
+#buyloadoutinfo{
+    border: 6px solid orange;
+    border-radius: 18.6px;
+    padding: 5%;
+    width: 350px;
+    background-color: lightgray;
+}
+#numx{
+    font-size: 20px;
+}
+#payment{
+    border: 6px solid orange;
+    border-radius: 18.6px;
+    padding: 5%;
+    width: 350px;
+    background-color: lightgray;
+    margin-top: 2%;
+    
+}
+#bttfim{
+    margin-top: 8%;
+    background-color: lightgreen;
+    transition-duration: 0.4s;
+    width: 330px;
+    height: 45px;
+    font-size: 25px;
+}
+#bttfim:hover{
+    background-color: chartreuse;
+    cursor: pointer;
+}
+#paymenttype{
+    font-size: 30px;
+}
+.rodape1{
+    background-color: green;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    border:rgb(26, 175, 12) solid;
+    border-radius: 18px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 2.5%;
+    margin-top: 10px;
+
+}
+#fp{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-bottom: 1%;
+}
+.pagflag{
+    width: 60px;
+    height: 30px;
+    margin-right: 1%;
+}
+#cardflagzz{
+    
+    margin-left: 5%;
+    margin-top: 0%;
+
+}
+.srcft{
+    width: 95px;
+    height: 90px;
+    margin-top: 48px;
+    margin-left: 72px;
+}
+#rodape2{
+    display: flex;
+    background-color: green;
+    border: solid rgb(26, 175, 12);
+    border-radius: 18px;
+    margin-top: 2%;
+}
+#certficate{
+    display: flex;
+    justify-content: baseline;
+    
+    margin-left: 360px;
+    
+}
+.icon{
+    border: lightgreen solid;
+    background-color: rgb(26, 175, 12);
+    border-radius: 50%;
+    height: 78px;
+    width: 85px;
+   
+    
+
+}
+#rodape3{
+    background-color: green;
+    border: solid rgb(26, 175, 12);
+    border-radius: 18px;
+    margin-top: 2%;
+    display: flex;
+}
+#socialmediaicon{
+    margin-left: 54%;
+    margin-top: 2%;
+    margin-bottom: 25px;
+    
+}
+#lastimg{
+    width: 200px;
+    height: 60px;
+    margin: 2%;
+    
+    
+}
+button {
+   transition-duration: 0.4s;
+}
+button:hover {
+   background-color: #b2b4b2;
+   color:red;
+}
